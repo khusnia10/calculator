@@ -86,8 +86,3 @@ decimal.addEventListener('click',(event)=>{
   updateScreen(currentnumber)
 })
 
-const percentage=document.querySelector('.percentage')
-percentage.addEventListener("click",()=>{
-  currentNumber /=100
-  updateScreen(currentNumber)
-})
